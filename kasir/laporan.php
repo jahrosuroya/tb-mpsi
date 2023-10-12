@@ -9,11 +9,11 @@
 ?>
 <!-- top of file -->
 		<!-- Page Content -->
-		<div id="page-wrapper">
+		<div id="page-wrapper" style="background-image: url(bg-k/bgk.jpg); background-size: cover;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Laporan Data Transaksi</h1>
+                        <h1 class="page-header" style="color: #ffffff; font-weight: bold; text-shadow: 1px 1px 0 #000">Laporan Data Transaksi</h1>
                     </div><!-- /.col-lg-12 -->
                 </div><!-- /.row -->
 				
@@ -22,21 +22,21 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-12">
-						<div class="panel panel-default">
+						<div class="panel panel-default" style="background-color: #605B5B; color: #ffffff;">
 							<div class="panel-body">
 					        <form method="get" name="laporan" onSubmit="return valid();"> 
 								<div class="form-group">
 									<div class="col-sm-4">
 										<label>Tanggal Awal</label>
-										<input type="date" class="form-control" name="awal" placeholder="From Date(dd/mm/yyyy)" required>
+										<input type="date" class="form-control" name="awal" placeholder="From Date(dd/mm/yyyy)" required style="background-color: #605B5B; color: #ffffff">
 									</div>
 									<div class="col-sm-4">
 										<label>Tanggal Akhir</label>
-										<input type="date" class="form-control" name="akhir" placeholder="To Date(dd/mm/yyyy)" required>
+										<input type="date" class="form-control" name="akhir" placeholder="To Date(dd/mm/yyyy)" required style="background-color: #605B5B; color: #ffffff">
 									</div>
 									<div class="col-sm-4">
 										<label>&nbsp;</label><br/>
-										<input type="submit" name="submit" value="Lihat Laporan" class="btn btn-primary">
+										<input type="submit" name="submit" value="Lihat Laporan" class="btn btn-primary" style="background-color: #CC7E23; border: 0.5px solid #CC7E23; border-radius: 10px">
 									</div>
 								</div>
 							</form>

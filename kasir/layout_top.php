@@ -19,9 +19,9 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Dejavu Cafe & Resto - <?php echo $pagedesc ?></title>
+	<title>LOREM Cafe and Resto - <?php echo $pagedesc ?></title>
   
-	<link href="foto/logo.png" rel="icon" type="images/x-icon">
+	<link href="foto/icon2.png" rel="icon" type="images/x-icon">
 
     <!-- Bootstrap Core CSS -->
 	<link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -56,10 +56,10 @@
 
 <body>	
  
-    <div id="wrapper">
+    <div id="wrapper" style="background-color: #000000">
 
         <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0; background-color: #000000">
             <div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 				<span class="sr-only">Toggle navigation</span>
@@ -68,43 +68,43 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand hidden-xs" href="index.php">
-					<img src="foto/logo2.png" alt="brand" width="32" class="float-left image-brand">
-					<div class="float-right">&nbsp;<strong>Cafe Menu</strong></div>
+					<img src="foto/icon2.png" alt="brand" width="32" class="float-left image-brand">
+					<div class="float-right" style="color: #ffffff">&nbsp;<strong>Cafe Menu</strong></div>
 					<div class="clear-both"></div>
 				</a>
 				<a class="navbar-brand visible-xs" href="index.php">
 					<img src="foto/logo.png" alt="brand" width="32" class="float-left image-brand">
-					<div class="float-right">&nbsp;<strong>Cafe Menu </strong></div>
+					<div class="float-right" style="color: #ffffff">&nbsp;<strong>Cafe Menu </strong></div>
 					<div class="clear-both"></div>
 				</a>
 			</div><!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
 				<li class="dropdown dropdown-right">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: #ffffff">
 						<img src="../foto/<?php echo $sess_kasirfoto;?>" width="20px" height="20px" padding="0px">&nbsp;&nbsp;<?php echo ucfirst($sess_kasirname); ?>&nbsp;<i class="fa fa-caret-down"></i>
 					</a>
-					<ul class="dropdown-menu dropdown-user">
-						<li><a href="pengaturan.php"><i class="fa fa-gear fa-fw"></i>&nbsp;Pengaturan Akun</a></li>
+					<ul class="dropdown-menu dropdown-user" style="background-color: #000000">
+						<li><a href="pengaturan.php" style="color: #ffffff"><i class="fa fa-gear fa-fw"></i>&nbsp;Pengaturan Akun</a></li>
 						<li class="divider"></li>
-						<li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Keluar</a></li>
+						<li><a href="logout.php" style="color: #ffffff"><i class="fa fa-sign-out fa-fw"></i> Keluar</a></li>
 					</ul><!-- /.dropdown-user -->
 				</li><!-- /.dropdown -->
 			</ul><!-- /.navbar-top-links -->
 
-            <div class="navbar-default sidebar" role="navigation">
+            <div class="navbar-default sidebar" role="navigation" style="background-color: #000000">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
-                        <li class="sidebar-search">
-							<h4>Dejavu Cafe & Resto</h4>
-							<h5 class="text-muted"><i class="fa fa-calendar fa-fw"></i>&nbsp;<?php echo $hari_ini.", ".$tanggal." ".$bulan_ini." ".$tahun ?></h5>
+                        <li class="sidebar-search" style="color: #ffffff">
+							<h4>LOREM Cafe and Resto</h4>
+							<h5 class="text-muted" style="color: #ffffff"><i class="fa fa-calendar fa-fw"></i>&nbsp;<?php echo $hari_ini.", ".$tanggal." ".$bulan_ini." ".$tahun ?></h5>
 						</li>
 						<?php
 							if($pagedesc == "Beranda") {
-								echo '<li><a href="index.php" class="active"><i class="fa fa-home fa-fw"></i>&nbsp;Beranda</a></li>';
+								echo '<li><a href="index.php" class="active" style="color: #ffffff"><i class="fa fa-home fa-fw"></i>&nbsp;Beranda</a></li>';
 							}
 							else {
-								echo '<li><a href="index.php"><i class="fa fa-home fa-fw"></i>&nbsp;Beranda</a></li>';
+								echo '<li><a href="index.php" style="color: #ffffff"><i class="fa fa-home fa-fw"></i>&nbsp;Beranda</a></li>';
 							}
 							if(isset($menuparent) && $menuparent == "transaksi") {
 								echo '<li class="active">';
@@ -114,14 +114,14 @@
 							}
 						?>
                         <!-- open <li> tag generated with php, see line 134-139 -->
-							<a href="#"><i class="fa fa-gear fa-fw"></i>&nbsp;Transaksi<span class="fa arrow"></span></a>
+							<a href="#" style="color: #ffffff"><i class="fa fa-gear fa-fw"></i>&nbsp;Transaksi<span class="fa arrow"></span></a>
 							<ul class="nav nav-second-level">
 								<?php
 									if($pagedesc == "Transaksi Baru") {
 										echo '<li><a href="trx_baru.php" class="active">Transaksi Baru</a></li>';
 									}
 									else {
-										echo '<li><a href="trx_baru.php">Transaksi Baru</a></li>';
+										echo '<li><a href="trx_baru.php" style="color: #ffffff">Transaksi Baru</a></li>';
 									}
 								?>
 								<?php
@@ -129,7 +129,7 @@
 										echo '<li><a href="trx.php" class="active">Data Transaksi</a></li>';
 									}
 									else {
-										echo '<li><a href="trx.php">Data Transaksi</a></li>';
+										echo '<li><a href="trx.php" style="color: #ffffff">Data Transaksi</a></li>';
 									}
 								?>
 							</ul><!-- /.nav-second-level -->
@@ -143,14 +143,14 @@
 							}
 						?>
                         <!-- open <li> tag generated with php, see line 155-160 -->
-							<a href="#"><i class="fa fa-group fa-fw"></i>&nbsp;Data Konsumen<span class="fa arrow"></span></a>
+							<a href="#" style="color: #ffffff"><i class="fa fa-group fa-fw"></i>&nbsp;Data Konsumen<span class="fa arrow"></span></a>
 							<ul class="nav nav-second-level">
 								<?php
 									if($pagedesc == "Data Konsumen") {
 										echo '<li><a href="konsumen.php" class="active">Data Konsumen</a></li>';
 									}
 									else {
-										echo '<li><a href="konsumen.php">Data Konsumen</a></li>';
+										echo '<li><a href="konsumen.php" style="color: #ffffff">Data Konsumen</a></li>';
 									}
 								?>
 							</ul><!-- /.nav-second-level -->
@@ -163,14 +163,14 @@
 							}
 						?>
                         <!-- open <li> tag generated with php, see line 155-160 -->
-							<a href="#"><i class="fa fa-folder fa-fw"></i>&nbsp;Laporan<span class="fa arrow"></span></a>
+							<a href="#" style="color: #ffffff"><i class="fa fa-folder fa-fw"></i>&nbsp;Laporan<span class="fa arrow"></span></a>
 							<ul class="nav nav-second-level">
 								<?php
 									if($pagedesc == "Laporan") {
 										echo '<li><a href="laporan.php" class="active">Laporan</a></li>';
 									}
 									else {
-										echo '<li><a href="laporan.php">Laporan</a></li>';
+										echo '<li><a href="laporan.php" style="color: #ffffff">Laporan</a></li>';
 									}
 								?>
 							</ul><!-- /.nav-second-level -->

@@ -27,4 +27,5 @@
 		$ress = mysqli_query($conn, $sql);
 		header("location: barang.php?act=update&msg=success");
 }
+}
 ?>

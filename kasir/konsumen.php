@@ -9,11 +9,11 @@
 ?>
 <!-- top of file -->
 		<!-- Page Content -->
-		<div id="page-wrapper">
+		<div id="page-wrapper" style="background-image: url(bg-k/bgk.jpg); background-size: cover;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Data Konsumen</h1>
+                        <h1 class="page-header" style="color: #ffffff; font-weight: bold; text-shadow: 1px 1px 0 #000">Data Konsumen</h1>
                     </div><!-- /.col-lg-12 -->
                 </div><!-- /.row -->
 				
@@ -25,7 +25,7 @@
 					<div class="col-lg-12">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<a href="konsumen_tambah.php" class="btn btn-success">Tambah</a>
+								<a href="konsumen_tambah.php" class="btn btn-success" class="btn btn-success" style=" font-weight: bold; background-color: #CC7E23; border: 0.5px solid #CC7E23; border-radius: 10px">Tambah</a>
 							</div>
 							<div class="panel-body">
 								<table class="table table-striped table-bordered table-hover" id="tabel-data">

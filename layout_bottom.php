@@ -1,9 +1,9 @@
 	</div><!-- /#wrapper -->
 	
 	<!-- footer-bottom -->
-	<div class="navbar navbar-inverse navbar-fixed-bottom footer-bottom">
+	<div class="navbar navbar-inverse navbar-fixed-bottom footer-bottom" style="background-color: #000000">
 		<div class="container text-center">
-			<p class="text-center" style="color: #D1C4E9; margin: 0 0 5px; padding: 0"><small>Dejavu Cafe & Resto | Repost by <a href='https://dicodean.com/' title='Dicodean.com' target='_blank'>Dicodean.com</a>
+			<p>
 			</p>
 		</div>
 	</div><!-- /.footer-bottom -->

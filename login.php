@@ -8,9 +8,9 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Dejavu Cafe & Resto - <?php echo $pagedesc ?></title>
+	<title>LOREM Cafe and Resto - <?php echo $pagedesc ?></title>
 
-	<link href="foto/logo.png" rel="icon" type="images/x-icon">
+	<link href="foto/icon.png" rel="icon" type="images/x-icon">
 
 	<!-- Bootstrap Core CSS -->
 	<link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
 	<![endif]-->
 </head>
 
-<body style="background-image: url(bg/bg4.jpg)">
+<body style="background-image: url(bg/bg-1.jpg)">
 
 	<section id="main-wrapper" style="margin-top: 120px">
 		<div class="container-fluid">
@@ -41,38 +41,37 @@
 				<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4"><?php include("layout_alert.php"); ?></div>
 			</div><!-- /.row -->
 			<div class="row">
-				<div id="page-wrapper" class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4" style="background-color: #ffffff; border-radius: 3px; webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05); box-shadow: 0 1px 1px rgba(0,0,0,.05)">
+				<div id="page-wrapper" class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4" style="background-color: #000000; border-radius: 3px; -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05); box-shadow: 0 1px 1px rgba(0,0,0,.05)">
 					<div class="row">
 						<div class="col-lg-12">
 							<br/>
-							<center><img src="foto/logo.png" width="120" height="120"></center>
-							<b><h2 class="text-center">Dejavu Cafe & Resto </h2></b>
+							<center><img src="foto/icon.png" width="120" height="120"></center>
+							<b class="text-left" style="color: #ffffff"><h1 style="font-size: 20px">Welcome to <span style="font-weight: bold; color: #CC7E23;">LOREM</span></h1>
+								<h2 style="font-size: 40px">Cafe and Resto</h2></b>
 						</div>
 					</div><!-- /.row -->
 					<div class="row">
 						<div class="col-lg-12">
-							<div class="panel panel-default">
+							<div class="panel panel-default" style="background-color: #000000">
 								<div class="panel-body">
 									<form action="login_auth.php" method="post">
 										<div class="form-group">
-											<input type="text" class="form-control" name="username" placeholder="Username" required>
+											<input style="background-color: #000000; color: #ffffff;" type="text" class="form-control" name="username" placeholder="Username" required>
 										</div>
 										<div class="form-group">
-											<input type="password" class="form-control" name="password" placeholder="Password" required>
+											<input style="background-color: #000000; color: #ffffff;" type="password" class="form-control" name="password" placeholder="Password" required>
 										</div>
 										<div class="form-group">
-											<select class="form-control" name="akses" required>
+											<select class="form-control" name="akses" required style="background-color: #000000; color: #ffffff;">
 											<option value=""> Login Sebagai </option>
 											<option value="Admin">Admin</option>
 											<option value="Kasir">Kasir</option>
 											</select>
 										</div>
 										<div class="form-group">
-											<input type="submit" class="btn btn-success btn-block" name="login" value="Masuk">
+											<input type="submit" class="btn btn-success btn-block" style="background-color: #CC7E23; border: 0.5px solid #CC7E23" name="login" value="Masuk">
 										</div>
 									</form>
-									<br><center><p>Repost by <a href='https://dicodean.com/' title='StokCoding.com' target='_blank'>Dicodean.com</a></p></center>
-									
 								</div>
 							</div>
 						</div><!-- /.col -->
@@ -81,16 +80,5 @@
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</section>
-	
-	<!-- footer-bottom -->
-	<div class="navbar navbar-inverse navbar-fixed-bottom footer-bottom">
-		<div class="container text-center">
-			<p class="text-center" style="color: #D1C4E9; margin: 0 0 5px; padding: 0"><marquee><small>Dejavu Cafe and Resto Menyediakan untuk pemesanan Nasi Kotak.Minimal 10 Kotak.Dan utk kawasan seputaran SURABAYA tidak dikenakan biaya ongkos kirim,akan tetapi diluar daerah SURABAYA dikenakan Ongkir Rp.Rp.5000 ( Lima Ribu Rupiah ). Pemesanan Anda dapat menghubungi kami di nomor WA 0822754566 atas nama DEJAVU CAFE. Pemesanan Dibuka Pada hari Kerja dan Hari-hari Libur pada pukul 11.00 Pagi s/d Pukul 22.00 malam wib</small></marquee></p>
-		</div>
-	</div><!-- /.footer-bottom -->
-
-	<!-- Bootstrap Core JavaScript -->
-	<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
-
 </body>
 </html>
