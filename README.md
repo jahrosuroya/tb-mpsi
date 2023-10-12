@@ -6,3 +6,12 @@ How run the website:
 3. Import the database name "db_cafe" (htdocs > tb-mpsi > database > db_cafe) from this project to your XAMPP
 4. Open "localhost/tb-mpsi" on your browser
 5. You finally can run the website
+
+note!
+for the first login, use this username and password:
+Login sebagai admin:
+Username : admin
+Password : admin
+Login sebagai kasir
+Username : username
+Password : password
