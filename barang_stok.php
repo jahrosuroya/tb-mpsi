@@ -20,7 +20,7 @@
 
 	<title><?php echo $pagetitle ?></title>
 
-	<link href="foto/logo.png" rel="icon" type="images/x-icon">
+	<link href="foto/icon.png" rel="icon" type="images/x-icon">
 
 
 	<!-- Bootstrap Core CSS -->
@@ -44,14 +44,14 @@
 	<![endif]-->
 </head>
 
-<body>
+<body style="background-color: #fff">
 	<section id="header-kop">
 		<div class="container-fluid">
 			<table class="table table-borderless">
 				<tbody>
 					<tr>
 						<td class="text-left" width="20%">
-							<img src="foto/logo.png" alt="logo-dkm" width="70" />
+							<img src="foto/icon.png" alt="icon-dkm" width="70" />
 						</td>
 						<td class="text-center" width="60%">
 						<b>Bengkel Mantap Jiwa</b> <br>

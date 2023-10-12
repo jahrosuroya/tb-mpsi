@@ -1,9 +1,9 @@
 	</div><!-- /#wrapper -->
 	
 	<!-- footer-bottom -->
-	<div class="navbar navbar-inverse navbar-fixed-bottom footer-bottom">
+	<div class="navbar navbar-inverse navbar-fixed-bottom footer-bottom" style="background-color: #000000">
 		<div class="container text-center">
-			<p class="text-center" style="color: #D1C4E9; margin: 0 0 5px; padding: 0"><marquee><small>Dejavu Cafe and Resto Menyediakan untuk pemesanan Nasi Kotak.Minimal 10 Kotak.Dan utk kawasan seputaran SURABAYA tidak dikenakan biaya ongkos kirim,akan tetapi diluar daerah SURABAYA dikenakan Ongkir Rp.Rp.5000 ( Lima Ribu Rupiah ). Pemesanan Anda dapat menghubungi kami di nomor WA 0822754566 atas nama DEJAVU CAFE. Pemesanan Dibuka Pada hari Kerja dan Hari-hari Libur pada pukul 11.00 Pagi s/d Pukul 22.00 malam wib </p></marquee>
+			<p></p>
 		</div>
 	</div><!-- /.footer-bottom -->
 

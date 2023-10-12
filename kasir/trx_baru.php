@@ -54,11 +54,11 @@ $query = mysqli_query($conn,$sql);
 ?>
 <!-- top of file -->
 		<!-- Page Content -->
-		<div id="page-wrapper">
+		<div id="page-wrapper" style="background-image: url(bg-k/bgk.jpg); background-size: cover;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Transaksi Baru</h1>
+                        <h1 class="page-header" style="color: #ffffff; font-weight: bold; text-shadow: 1px 1px 0 #000">Transaksi Baru</h1>
                     </div><!-- /.col-lg-12 -->
                 </div><!-- /.row -->
 				
@@ -68,9 +68,9 @@ $query = mysqli_query($conn,$sql);
 				
 				<div class="row">
 					<div class="col-lg-12">
-						<div class="panel panel-default">
+						<div class="panel panel-default" style="color: #000">
 							<div class="panel-heading">
-								<a href="tmp_tambah.php" class="btn btn-warning">Tambah</a>
+								<a href="tmp_tambah.php" class="btn btn-warning" style=" font-weight: bold; background-color: #CC7E23; border: 0.5px solid #CC7E23; border-radius: 10px">Tambah</a>
 							</div>
 						<form class="form-horizontal" method="POST" enctype="multipart/form-data">
 							<div class="panel-body">
@@ -91,7 +91,7 @@ $query = mysqli_query($conn,$sql);
 										</div>
 									</div>
 								<table class="table table-striped table-bordered table-hover" id="tabel-data">
-									<thead>
+									<thead style="color: #fff">
 										<tr>
 											<th width="1%">No</th>
 											<th width="10%">Nama</th>
@@ -140,7 +140,7 @@ $query = mysqli_query($conn,$sql);
 											<input type="hidden" name="tgl" class="form-control" value="<?php echo $tgl;?>">
 								</div>
 								<div class="panel-footer">
-									<button type="submit" name="simpan" class="btn btn-success">Simpan</button>
+									<button type="submit" name="simpan" class="btn btn-success" style=" font-weight: bold; background-color: #CC7E23; border: 0.5px solid #CC7E23; border-radius: 10px">Simpan</button>
 								</div>
 						</form>
 			<!-- Large modal -->
