@@ -7,11 +7,11 @@ How run the website:
 4. Open "localhost/tb-mpsi" on your browser
 5. You finally can run the website
 
-note!
+# notes #
 for the first login, use this username and password:
-Login sebagai admin:
-Username : admin
-Password : admin
-Login sebagai kasir
-Username : username
-Password : password
+1. Login sebagai admin:
+    - Username : admin
+    - Password : admin
+2. Login sebagai kasir
+    - Username : username
+    - Password : password
