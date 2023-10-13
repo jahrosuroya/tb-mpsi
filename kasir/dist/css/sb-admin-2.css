@@ -5,7 +5,7 @@
  */
 
 body {
-    background-color: #f8f8f8;
+    background-image: url(bg-k/bgk.jpg);
 }
 
 #wrapper {
@@ -103,11 +103,11 @@ body {
 }
 
 .sidebar ul li {
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: 1px solid rgb(204, 126, 35);
 }
 
 .sidebar ul li a.active {
-    background-color: #eee;
+    background-color: rgb(204, 126, 35);
 }
 
 .sidebar .arrow {
@@ -157,7 +157,7 @@ body {
 }
 
 .btn-primary.btn-outline {
-    color: #428bca;
+    color: rgb(204, 126, 35);
 }
 
 .btn-success.btn-outline {
@@ -181,7 +181,7 @@ body {
 .btn-info.btn-outline:hover,
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
-    color: #fff;
+    color: rgb(204, 126, 35);
 }
 
 .chat {
@@ -261,7 +261,7 @@ table.dataTable thead .sorting:after {
     content: "\f0dc";
     float: right;
     font-family: fontawesome;
-    color: rgba(50,50,50,.5);
+    color: #605B5B;
 }
 
 .btn-circle {
@@ -307,56 +307,56 @@ table.dataTable thead .sorting:after {
     font-size: 32px;
 }
 
-.panel-green {
-    border-color: #5cb85c;
+.panel-grey {
+    border-color: #605B5B;
 }
 
-.panel-green .panel-heading {
-    border-color: #5cb85c;
+.panel-grey .panel-heading {
+    border-color: #605B5B;
     color: #fff;
-    background-color: #5cb85c;
+    background-color: #605B5B;
 }
 
-.panel-green a {
-    color: #5cb85c;
+.panel-grey a {
+    color: #605B5B;
 }
 
-.panel-green a:hover {
-    color: #3d8b3d;
+.panel-grey a:hover {
+    color: #605B5B;
 }
 
 .panel-red {
-    border-color: #d9534f;
+    border-color: #906F48;
 }
 
 .panel-red .panel-heading {
-    border-color: #d9534f;
+    border-color: #906F48;
     color: #fff;
-    background-color: #d9534f;
+    background-color: #906F48;
 }
 
 .panel-red a {
-    color: #d9534f;
+    color: #906F48;
 }
 
 .panel-red a:hover {
-    color: #b52b27;
+    color: #906F48;
 }
 
-.panel-yellow {
-    border-color: #f0ad4e;
+.panel-brown {
+    border-color: #906F48;
 }
 
-.panel-yellow .panel-heading {
-    border-color: #fe4eff;
-    color: #fff;
-    background-color: #fe4eff;
+.panel-brown .panel-heading {
+    border-color: #906F48;
+    color: #f5f5f5;
+    background-color: #906F48;
 }
 
-.panel-yellow a {
-    color: #f0ad4e;
+.panel-brown a {
+    color: #906F48;
 }
 
-.panel-yellow a:hover {
-    color: #df8a13;
+.panel-brown a:hover {
+    color: #906F48;
 }

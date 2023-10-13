@@ -154,7 +154,7 @@
 							}
 						?>
                         <!-- open <li> tag generated with php, see line 155-160 -->
-							<a href="#" style="color: #ffffff"><i class="fa fa-th-large fa-fw"></i>&nbsp;Data Barang dan Jasa<span class="fa arrow"></span></a>
+							<a href="#" style="color: #ffffff"><i class="fa fa-th-large fa-fw"></i>&nbsp;Data Barang dan Layanan<span class="fa arrow"></span></a>
 							<ul class="nav nav-second-level">
 								<?php
 									if($pagedesc == "Barang Masuk") {
@@ -169,11 +169,11 @@
 									else {
 										echo '<li><a href="barang.php" style="color: #ffffff">Data Barang</a></li>';
 									}
-									if($pagedesc == "Data Jasa") {
-										echo '<li><a href="jasa.php" class="active">Data Jasa</a></li>';
+									if($pagedesc == "Data Layanan") {
+										echo '<li><a href="jasa.php" class="active">Data Layanan</a></li>';
 									}
 									else {
-										echo '<li><a href="jasa.php" style="color: #ffffff">Data Jasa</a></li>';
+										echo '<li><a href="jasa.php" style="color: #ffffff">Data Layanan</a></li>';
 									}
 								?>
 							</ul><!-- /.nav-second-level -->
